@@ -1,0 +1,32 @@
+{
+    "python.formatting.provider": "black",
+    "files.associations": {
+        "iomanip": "cpp",
+        "iosfwd": "cpp",
+        "fstream": "cpp",
+        "ostream": "cpp",
+        "new": "cpp",
+        "atomic": "cpp",
+        "bitset": "cpp",
+        "chrono": "cpp",
+        "istream": "cpp",
+        "mutex": "cpp",
+        "ratio": "cpp",
+        "sstream": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "string_view": "cpp"
+    },
+    "python.languageServer": "Pylance",
+    "python.linting.pylintEnabled": false,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none"
+    },
+    "python.analysis.extraPaths": [
+        "",
+        "/home/unity/.vscode/extensions/joedevivo.vscode-circuitpython-0.1.19-linux-x64/stubs",
+        "/home/unity/.config/Code/User/globalStorage/joedevivo.vscode-circuitpython/bundle/20221130/adafruit-circuitpython-bundle-py-20221130/lib"
+    ],
+    "circuitpython.board.version": null
+}
