@@ -56,7 +56,7 @@ int main(int argc, const char **argv) {
 	vector<string> found;  // Decrypted results
 	vector<string> keys;  // Possible keys
 	ifstream file;	// PDF File
-	file.open("/home/unity/nsa/task9/important_data.pdf.enc");
+	file.open("important_data.pdf.enc");
 	unsigned char *ciphertext;
 	sbuf(ciphertext, 32);
 	file.read((char *)ciphertext, 32);  // Read two blocks
